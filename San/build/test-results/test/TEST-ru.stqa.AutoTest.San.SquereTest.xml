@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.AutoTest.San.SquereTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-10T19:15:42" hostname="DESKTOP-CQEA7T1" time="0.004">
+<testsuite name="ru.stqa.AutoTest.San.SquereTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-10T19:35:46" hostname="DESKTOP-CQEA7T1" time="0.003">
   <properties/>
-  <testcase name="testArea" classname="ru.stqa.AutoTest.San.SquereTest" time="0.004"/>
+  <testcase name="testArea" classname="ru.stqa.AutoTest.San.SquereTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

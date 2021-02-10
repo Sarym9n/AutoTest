@@ -3,6 +3,7 @@ package ru.stqa.AutoTest.San;
 import org.junit.Test;
 import org.testng.Assert;
 
+
 public class SquereTest {
 
   @Test

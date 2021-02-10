@@ -16,15 +16,6 @@ public class GroupCreationTestsTest {
   @Before
   public void setUp() {
     wd = new ChromeDriver();
-  }
-
-  @After
-  public void tearDown() {
-    wd.quit();
-  }
-  
-  @Test
-  public void groupCreationTests() {
     wd.get("http://localhost/addressbook/group.php");
     wd.manage().window().setSize(new Dimension(1045, 553));
     wd.findElement(By.name("user")).click();
@@ -32,6 +23,11 @@ public class GroupCreationTestsTest {
     wd.findElement(By.name("pass")).click();
     wd.findElement(By.name("pass")).sendKeys("secret");
     wd.findElement(By.cssSelector("input:nth-child(7)")).click();
+  }
+
+  @Test
+  public void testGroupCreation() {
+
     wd.findElement(By.linkText("groups")).click();
     wd.findElement(By.name("new")).click();
     wd.findElement(By.name("group_name")).click();
@@ -42,4 +38,10 @@ public class GroupCreationTestsTest {
     wd.findElement(By.linkText("group page")).click();
     wd.findElement(By.linkText("Logout")).click();
   }
+
+  @After
+  public void tearDown() {
+    wd.quit();
+  }
+
 }

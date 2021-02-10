@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.adress.GroupCreationTestsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-10T20:14:37" hostname="DESKTOP-CQEA7T1" time="5.107">
+<testsuite name="ru.stqa.pft.adress.GroupCreationTestsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-10T20:28:39" hostname="DESKTOP-CQEA7T1" time="4.893">
   <properties/>
-  <testcase name="groupCreationTests" classname="ru.stqa.pft.adress.GroupCreationTestsTest" time="5.107"/>
+  <testcase name="testGroupCreation" classname="ru.stqa.pft.adress.GroupCreationTestsTest" time="4.893"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 32954
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 20866
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-фев 10, 2021 11:14:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+фев 10, 2021 11:28:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-фев 10, 2021 11:14:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+фев 10, 2021 11:28:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 88, so returning the closest version found: 86
-фев 10, 2021 11:14:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+фев 10, 2021 11:28:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 88 of 86
 ]]></system-err>
 </testsuite>
